@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Travelers</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- boxicons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- Navbar -->
+     <header>
+        <a href="#" class="logo"><i class='bx bx-cart-download'></i></i>Voyager</a>
+        <!-- Menu icons -->
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <!-- Navlist -->
+         <ul class="navbar">
+         <li><a href="#home" class="home-active">Home</a></li>
+         <li><a href="#destinations">Destinations</a></li>
+         <li><a href="#exclusivepackages">Exclusive Packages</a></li>
+         <li><a href="#about">About</a></li>
+         <li><a href="#customers">Voice of Customers</a></li>
+        </ul>
+        <!-- Profile -->
+         <div class="profile">
+            <img src="images/IMG_20240608_094120_650.jpg" alt="">
+            <span>Avinash Neralakatte</span>
+            <i class='bx bx-caret-down'></i>
+
+         </div>
+     </header>
+    <!-- Home -->
+     <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <!-- slider 1 -->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>Unlocking the World's wanderlust</span>
+                    <h1>Choose Voyager<br>the best<br>Travel Agency</h1>
+                    <a href="#" class="btn">Let's Go<i class='bx bxs-plane-take-off'></i></a>
+                </div>
+                <img src="images/pexels-pranavsinh232-5480518.jpg" alt="">
+            </div>
+            <!-- slider 2 -->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>Unlocking the World's wanderlust</span>
+                    <h1>Choose Voyager<br>the best<br>Travel Agency</h1>
+                    <a href="#" class="btn">Let's Go<i class='bx bxs-plane-take-off'></i></a>
+                </div>
+                <img src="images/eiffel_tower_france_paris_hd_travel.jpg" alt="">
+            </div>
+            <!-- slider 3 -->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>Unlocking the World's wanderlust</span>
+                    <h1>Choose Voyager<br>the best<br>Travel Agency</h1>
+                    <a href="#" class="btn">Let's Go<i class='bx bxs-plane-take-off'></i></a>
+                </div>
+                <img src="images/usa.jpg" alt="">
+            </div>
+
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+     </section>
+     <!-- Enquire Now Button -->
+<button id="enquire-btn" class="enquire-btn">Enquire Now</button>
+
+<!-- Popup Form -->
+<div id="popup-form" class="popup-form">
+  <div class="form-container">
+    <h2>Enquire Now</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+      
+      <label for="destination">Travel Destination:</label>
+      <input type="text" id="destination" name="destination" placeholder="Enter travel destination" required>
+      
+      <button type="submit" class="submit-btn">Submit</button>
+      <button type="button" id="close-btn" class="close-btn">Close</button>
+    </form>
+  </div>
+</div>
+<!-- Destinations -->
+
+<section class="destinations" id="destinations">
+    <p class="head-part">TAKE A LOOK AT OUR MOST POPULAR TOURS</p>    
+    <h3 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">European Destinations</h3>
+    <!-- Row 1 -->
+    <div class="destinations-row">
+        <div class="destination-block">
+            <div class="heading">
+                <a href="#"><h3>Spain</h3><img src="images/spain.jpg" alt=""></a>
+            </div>
+        </div>
+        <div class="destination-block">
+            <div class="heading">
+                <a href="#"><h3>Greece</h3><img src="images/greece.jpg" alt=""></a>
+            </div>
+        </div>
+        <div class="destination-block">
+            <div class="heading">
+                <a href="#"><h3>Italy</h3><img src="images/italy.webp" alt=""></a>
+            </div>
+        </div>
+        <div class="destination-block">
+            <div class="heading">
+                <a href="#"><h3>Austria</h3><img src="images/austria.jpg" alt=""></a>
+            </div>
+        </div>
+    </div><br />
+    
+    <h3 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Asian Destinations</h3>
+    <!-- Row 2 -->
+    <div class="destinations-row">
+        <div class="destination-block">
+            <div class="heading">
+                <a href="#"><h3>Singapore</h3><img src="images/singapore.jpg" alt=""></a>
+            </div>
+        </div>
+        <div class="destination-block">
+            <div class="heading">
+                <a href="#"><h3>Thailand</h3><img src="images/thailand.jpg" alt=""></a>
+            </div>
+        </div>
+        <div class="destination-block">
+            <div class="heading">
+                <a href="#"><h3>Bali</h3><img src="images/bali.png" alt=""></a>
+            </div>
+        </div>
+        <div class="destination-block">
+            <div class="heading">
+                <a href="#"><h3>Malaysia</h3><img src="images/malaysia.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Exculsive Packages -->
+<section class="exclusivepackages" id="exclusivepackages">
+    <div class="buttonstyle">
+        <h1>Exclusive Packages</h1>
+        <a href="#" class="btn">Let's Go<i class='bx bxs-plane-take-off'></i></a>
+            <a href="#"  ></a>
+    </div>
+    <!-- packages content -->
+    <div class="packages-container">
+        <!-- box1 -->
+        <div class="box">
+            <img src="images/honeymoon trip.jpg" alt="">
+            <span>Honeymoon trips</span>
+            <h2>2 person </h2>
+            <h3 class="price">$250<span>/day</span></h3>
+            <i class='bx bxs-shopping-bags'></i>
+            <i class='bx bxs-bookmark-heart'></i>
+            <span class="discount">-25%</span>
+        </div>
+        <!-- box2 -->
+        <div class="box">
+            <img src="images/family trip.png" alt="">
+            <span>Family Vacation</span>
+            <h2>6 person </h2>
+            <h3 class="price">$600<span>/day</span></h3>
+            <i class='bx bxs-shopping-bags'></i>
+            <i class='bx bxs-bookmark-heart'></i>
+            <span class="discount">-18%</span>
+        </div>
+        <!-- box3 -->
+        <div class="box">
+            <img src="images/beach trip.jpg" alt="">
+            <span>Beach Holiday</span>
+            <h2>3 person </h2>
+            <h3 class="price">$480<span>/day</span></h3>
+            <i class='bx bxs-shopping-bags'></i>
+            <i class='bx bxs-bookmark-heart'></i>
+            <span class="discount">-5%</span>
+        </div>
+        <!-- box4 -->
+        <div class="box">
+            <img src="images/adventure trip.jpg" alt="">
+            <span>Adventure Trails</span>
+            <h2>10 person </h2>
+            <h3 class="price">$150<span>/day</span></h3>
+            <i class='bx bxs-shopping-bags'></i>
+            <i class='bx bxs-bookmark-heart'></i>
+            <span class="discount">-50%</span>
+        </div>
+    </div>
+</section>
+<!-- About -->
+<section class="about" id="about">
+    <img src="images/about.jpeg" alt="">
+    <div class="about-text">
+        <span>About Us</span>
+        <p>At Voyager, we believe every journey tells a story and creates unforgettable memories. 
+        Established with a passion for exploration and a dedication to excellence, Voyager is your trusted companion for discovering the world’s most breathtaking destinations. 
+        We specialize in curating personalized travel experiences that cater to your dreams whether it’s a relaxing beach getaway, an adventurous mountain trek, or a cultural immersion in vibrant cities.</p>
+        <a href="#" class="btn">Learn More<i class='bx bxs-plane-take-off'></i></a>
+    </div>
+</section>
+<!-- Voice of customers -->
+ <section class="customers" id="customers">
+    <h2>Why Customers Love Us?</h2>
+    <!-- Customers review section -->
+     <div class="customers-container">
+        <!-- Review 1 -->
+        <div class="box">
+            <i class='bx bxs-quote-left'></i>
+            <div class="stars">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates accusantium exercitationem harum. Ipsam quia ad dolorum, ducimus voluptas iste assumenda vel, voluptates eligendi fugiat nam deleniti, dolore perspiciatis exercitationem doloribus.</p>
+            <div class="review-profile">
+                <img src="images/john connor.jpg" alt="">
+                <h3>John Connor</h3>
+            </div>
+        </div>
+        <!-- Review 2 -->
+        <div class="box">
+            <i class='bx bxs-quote-left'></i>
+            <div class="stars">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates accusantium exercitationem harum. Ipsam quia ad dolorum, ducimus voluptas iste assumenda vel, voluptates eligendi fugiat nam deleniti, dolore perspiciatis exercitationem doloribus.</p>
+            <div class="review-profile">
+                <img src="images/sarah connor.jpg" alt="">
+                <h3>Sarah Connor</h3>
+            </div>
+        </div>
+        <!-- Review 3 -->
+        <div class="box">
+            <i class='bx bxs-quote-left'></i>
+            <div class="stars">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates accusantium exercitationem harum. Ipsam quia ad dolorum, ducimus voluptas iste assumenda vel, voluptates eligendi fugiat nam deleniti, dolore perspiciatis exercitationem doloribus.</p>
+            <div class="review-profile">
+                <img src="images/t800.webp" alt="">
+                <h3>Arnold S</h3>
+            </div>
+        </div>
+     </div>
+ </section>
+<!-- Footer -->
+<section class="footer" id="footer">
+    <div class="map-container">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345091524!2d-122.41941568468117!3d37.7749297797599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808dd9a3f0ab%3A0x5d28a7a2d344cdb4!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1697552506441!5m2!1sen!2sin" 
+            width="100%" 
+            height="200" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+    <div class="footer-box">
+        <a href="#" class="logo"><i class='bx bx-cart-download'></i></i>Voyager</a>
+        <p class="address">123 Main Street, San Francisco, CA, USA</p>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-youtube'></i></a>
+        </div>
+    </div>
+    <div class="footer-box">
+        <h2>Talk to us</h2>
+        <a href="#"><i class='bx bxl-gmail'></i>avinashpoojary651@gmail.com</a>
+        <a href="#"><i class='bx bx-phone'></i>+91 9611670779</a>
+        <a href="#"><i class='bx bxl-whatsapp'></i>+91 9611670779</a>
+    </div>
+    <div class="footer-box">
+        <h2>Support</h2>
+        <a href="#">Customer Support</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms and Conditions</a>
+        <a href="#">Refunds/Cancellation</a>
+    </div>
+    <div class="footer-box">
+        <h2>Newsletter</h2>
+        <p>Get 10% discount with <br>Email newsletter</p>
+        <form action="">
+            <i class='bx bxl-gmail'></i>
+            <input type="email" name="" id="" placeholder="Enter your Email">
+            <i class='bx bx-arrow-back'></i>
+        </form>
+    </div>
+</section>
+<!-- Copyright -->
+<div class="copyright">
+    <p>&#169; AvinashN All rights Reserved</p>
+</div>
+<!-- swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Link to js -->
+<script src="main.js"></script>
+<script>
+    var swiper = new Swiper(".swiper", {
+        loop: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
+</body>
+</html>
