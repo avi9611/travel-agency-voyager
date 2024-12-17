@@ -339,13 +339,13 @@ header{
 }
 @media screen and (max-width: 800px) {
   .head-part {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 
 @media screen and (max-width: 500px) {
   .head-part {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -975,15 +975,15 @@ header{
   }
   
   .navbar.active {
-    display: flex; /* Show on menu icon click */
+    display: flex; 
   }
 
   #menu-icon {
-    display: block; /* Show hamburger menu */
+    display: block; 
   }
 
   .home-text h1 {
-    font-size: 1.8rem; /* Decrease font size */
+    font-size: 1.8rem; 
   }
 
   .container {
@@ -992,12 +992,12 @@ header{
   }
 
   .packages-container {
-    grid-template-columns: repeat(auto-fit, minmax(150px, auto)); /* Adjust grid */
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto)); 
     gap: 1rem;
   }
 
   .heading {
-    width: 100%; /* Make headings full-width */
+    width: 100%; 
     height: auto;
   }
 
@@ -1007,12 +1007,12 @@ header{
   }
 
   .footer {
-    grid-template-columns: 1fr; /* Stack footer sections */
+    grid-template-columns: 1fr; 
     text-align: center;
   }
 
   .popup-form {
-    width: 90%; /* Responsive popup form */
+    width: 90%; 
   }
 }
 
@@ -1038,7 +1038,7 @@ header{
   }
 
   .destination-block {
-    flex: 1 1 100%; /* Single column layout */
+    flex: 1 1 100%; 
   }
 
   .footer-box {
