@@ -180,10 +180,6 @@ header{
   z-index: 1000;
 }
 
-.navbar {
-  display: none;
-}
-
 .btn2{
   padding: 0.6rem 1rem;
   background: var(--text-color---);
