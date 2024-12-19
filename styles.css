@@ -961,7 +961,7 @@ header{
   }
   
   .navbar {
-    display: none; /* Hide navbar */
+    display: none;
     flex-direction: column;
     position: absolute;
     top: 60px;
