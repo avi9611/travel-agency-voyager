@@ -35,6 +35,7 @@ cd <repository-directory>
 Open the Project: Open index.html in your preferred browser to view the website.
 
 Run a Local Server: Use a local server to explore JavaScript features:
+
 npx http-server
 
 File Structure
