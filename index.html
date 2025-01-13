@@ -1,98 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Voyager - Your trusted travel agency for unforgettable journeys.">
+    <meta name="author" content="Avinash Neralakatte">
     <title>The Travelers</title>
-    <!-- css link -->
+
+    <!-- CSS Link -->
     <link rel="stylesheet" href="styles.css">
-    <!-- boxicons -->
+
+    <!-- Boxicons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
+
 <body>
     <!-- Navbar -->
-     <header>
-        <a href="#" class="logo"><i class='bx bx-cart-download'></i></i>Voyager</a>
-        <!-- Menu icons -->
-
+    <header>
+        <a href="#" class="logo"><i class='bx bx-cart-download'></i>Voyager</a>
         <div class="bx bx-menu" id="menu-icon"></div>
-        <!-- Navlist -->
-         <ul class="navbar">
-         <li><a href="#home" class="home-active">Home</a></li>
-         <li><a href="#destinations">Destinations</a></li>
-         <li><a href="#exclusivepackages">Exclusive Packages</a></li>
-         <li><a href="#about">About</a></li>
-         <li><a href="#customers">Voice of Customers</a></li>
+        <ul class="navbar">
+            <li><a href="#home" class="home-active">Home</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#exclusivepackages">Exclusive Packages</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#customers">Voice of Customers</a></li>
         </ul>
-        <!-- Profile -->
-         <div class="profile">
-            <img src="images/IMG_20240608_094120_650.jpg" alt="">
+        <div class="profile">
+            <img src="images/IMG_20240608_094120_650.jpg" alt="Avinash Neralakatte">
             <span>Avinash Neralakatte</span>
             <i class='bx bx-caret-down'></i>
+        </div>
+    </header>
 
-         </div>
-     </header>
-    <!-- Home -->
-     <section class="home swiper" id="home">
+    <!-- Home Section -->
+    <section class="home swiper" id="home">
         <div class="swiper-wrapper">
-            <!-- slider 1 -->
+            <!-- Slide 1 -->
             <div class="swiper-slide container">
                 <div class="home-text">
-                    <span>Unlocking the World's wanderlust</span>
-                    <h1>Choose Voyager<br>the best<br>Travel Agency</h1>
+                    <span>Unlocking the World's Wanderlust</span>
+                    <h1>Choose Voyager<br>The Best<br>Travel Agency</h1>
                     <a href="#" class="btn">Let's Go<i class='bx bxs-plane-take-off'></i></a>
                 </div>
-                <img src="images/pexels-pranavsinh232-5480518.jpg" alt="">
+                <img src="images/pexels-pranavsinh232-5480518.jpg" alt="Beautiful Beach">
             </div>
-            <!-- slider 2 -->
+            <!-- Slide 2 -->
             <div class="swiper-slide container">
                 <div class="home-text">
-                    <span>Unlocking the World's wanderlust</span>
-                    <h1>Choose Voyager<br>the best<br>Travel Agency</h1>
+                    <span>Unlocking the World's Wanderlust</span>
+                    <h1>Choose Voyager<br>The Best<br>Travel Agency</h1>
                     <a href="#" class="btn">Let's Go<i class='bx bxs-plane-take-off'></i></a>
                 </div>
-                <img src="images/eiffel_tower_france_paris_hd_travel.jpg" alt="">
+                <img src="images/eiffel_tower_france_paris_hd_travel.jpg" alt="Eiffel Tower in Paris">
             </div>
-            <!-- slider 3 -->
+            <!-- Slide 3 -->
             <div class="swiper-slide container">
                 <div class="home-text">
-                    <span>Unlocking the World's wanderlust</span>
-                    <h1>Choose Voyager<br>the best<br>Travel Agency</h1>
+                    <span>Unlocking the World's Wanderlust</span>
+                    <h1>Choose Voyager<br>The Best<br>Travel Agency</h1>
                     <a href="#" class="btn">Let's Go<i class='bx bxs-plane-take-off'></i></a>
                 </div>
-                <img src="images/usa.jpg" alt="">
+                <img src="images/usa.jpg" alt="Statue of Liberty, USA">
             </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </section>
 
-          </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-     </section>
-     <!-- Enquire Now Button -->
-<button id="enquire-btn" class="enquire-btn">Enquire Now</button>
+    <!-- Enquire Now Button -->
+    <button id="enquire-btn" class="enquire-btn">Enquire Now</button>
 
-<!-- Popup Form -->
-<div id="popup-form" class="popup-form">
-  <div class="form-container">
-    <h2>Enquire Now</h2>
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" placeholder="Enter your name" required>
-      
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" placeholder="Enter your email" required>
-      
-      <label for="phone">Phone:</label>
-      <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
-      
-      <label for="destination">Travel Destination:</label>
-      <input type="text" id="destination" name="destination" placeholder="Enter travel destination" required>
-      
-      <button type="submit" class="submit-btn">Submit</button>
-      <button type="button" id="close-btn" class="close-btn">Close</button>
-    </form>
-  </div>
-</div>
+    <!-- Popup Form -->
+    <div id="popup-form" class="popup-form">
+        <div class="form-container">
+            <h2>Enquire Now</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                
+                <label for="destination">Travel Destination:</label>
+                <input type="text" id="destination" name="destination" placeholder="Enter travel destination" required>
+                
+                <button type="submit" class="submit-btn">Submit</button>
+                <button type="button" id="close-btn" class="close-btn">Close</button>
+            </form>
+        </div>
+    </div>
 <!-- Destinations -->
 
 <section class="destinations" id="destinations">
@@ -318,8 +322,8 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <!-- Link to js -->
-<script src="main.js"></script>
 <script>
+    
     var swiper = new Swiper(".swiper", {
         loop: true,
         navigation: {
@@ -327,6 +331,20 @@
             prevEl: ".swiper-button-prev",
         },
     });
+
+    // Popup Form JavaScript
+    const enquireBtn = document.getElementById('enquire-btn');
+    const popupForm = document.getElementById('popup-form');
+    const closeBtn = document.getElementById('close-btn');
+
+    enquireBtn.addEventListener('click', () => {
+        popupForm.style.display = 'block';
+    });
+
+    closeBtn.addEventListener('click', () => {
+        popupForm.style.display = 'none';
+    });
 </script>
 </body>
+
 </html>
